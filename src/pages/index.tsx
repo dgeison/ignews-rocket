@@ -1,9 +1,20 @@
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 
-import styles from './home.module.scss'
 import { SubscribeButton } from '../components/SubscribeButton'
 import { stripe } from '../services/stripe'
+
+import styles from './home.module.scss'
+
+// Client-side
+// Server-side
+// Static Site Generation
+
+// Post do blog
+
+// Conteúdo (SSG)
+// Comentários (Client-side)
+
 
 interface HomeProps {
   product: {
